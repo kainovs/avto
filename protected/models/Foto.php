@@ -4,6 +4,7 @@
  * This is the model class for table "{{foto}}".
  *
  * The followings are the available columns in table '{{foto}}':
+ * @property integer $f_id
  * @property string $foto_file_name
  * @property integer $foto_ad_id
  *
@@ -43,7 +44,7 @@ class Foto extends CActiveRecord
 			array('foto_file_name', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('foto_file_name, foto_ad_id', 'safe', 'on'=>'search'),
+			array('f_id, foto_file_name, foto_ad_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -65,6 +66,7 @@ class Foto extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
+			'f_id' => 'F',
 			'foto_file_name' => 'Foto File Name',
 			'foto_ad_id' => 'Foto Ad',
 		);
@@ -81,6 +83,7 @@ class Foto extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
+		$criteria->compare('f_id',$this->f_id);
 		$criteria->compare('foto_file_name',$this->foto_file_name,true);
 		$criteria->compare('foto_ad_id',$this->foto_ad_id);
 

@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'AVTOBAZAR',
+	'name'=>'TAMAN.DROM.RU - ПРОДАЖА АВТОМОБИЛЕЙ',
         'theme'=>'branches',
 
 	// preloading 'log' component
@@ -19,6 +19,7 @@ return array(
 		'application.components.*',
                 'application.modules.user.models.*',
                 'application.modules.user.components.*',
+                'ext.imagecolumn.EImageColumn',
 	),
         'defaultController'=>'Ads',
 	'modules'=>array(
@@ -46,16 +47,17 @@ return array(
                         'loginUrl'=> '/user/login',
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		
 		'urlManager'=>array(
-			'urlFormat'=>'path',
+                      //'showScriptName'=> 'false',	
+                      ///'urlFormat'=>'path',
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
+		
             /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

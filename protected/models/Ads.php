@@ -83,7 +83,7 @@ class Ads extends CActiveRecord
 			'ad_user_id' => 'Автор',
 			'ad_models_id' => 'Автомобиль',
 			'ad_publish' => 'Публикация',
-			'ad_add_time' => 'Дата созлания',
+			'ad_add_time' => 'Дата объявления',
 			'ad_year' => 'Год выпуска',
 			'ad_type' => 'Тип объявления',
 			'ad_price' => 'Цена',
@@ -114,4 +114,19 @@ class Ads extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        public function getUrl()
+	{
+		return Yii::app()->createUrl('ads/index', array(
+			'id'=>$this->ad_id,
+			
+		));
+	}
+        
+        public function getFoto($pk, $i)
+        {
+            $img = Ads::model()->with('adFoto')->findAllByPk($pk);
+            foreach ($img as $image){
+                return $image->adFoto[$i]->foto_file_name; 
+            }
+        }
 }
