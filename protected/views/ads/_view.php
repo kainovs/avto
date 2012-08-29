@@ -5,11 +5,16 @@
 
 <div class="view">
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Автомобиль')); ?>:</b>
-	<?php echo CHtml::link(CHtml::encode($data->adModels->modelBrand->brand .' '. $data->adModels->model), array('view', 'id'=>$data->ad_id)); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('ad_year')); ?>:</b>
+    <b> <?php $i=Ads::model()->getFotos($data->ad_id);
+//print_r($i);?></b>
+        <b> <?php echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 1));?></b>
+        <b> <?php// echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 2));?></b>
+        <b> <?php //echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 3));?></b>
+        <b> <?php// echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 4));?></b>
+        
+        <br />
+        <hr>
+        <b><?php echo CHtml::encode($data->getAttributeLabel('ad_year')); ?>:</b>
 	<?php echo CHtml::encode($data->ad_year); ?>
 	<br />
         

@@ -57,6 +57,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
+                'ih'=>array('class'=>'CImageHandler'),
 		
             /*
 		'db'=>array(
@@ -101,6 +102,10 @@ return array(
 			),
 		),
 	),
+    
+        'sourceLanguage'=>'en_US',
+            'language'=>'ru',
+            'charset'=>'utf-8',
 
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']

@@ -116,7 +116,7 @@ class Ads extends CActiveRecord
 	}
         public function getUrl()
 	{
-		return Yii::app()->createUrl('ads/index', array(
+		return Yii::app()->createUrl('ads/view', array(
 			'id'=>$this->ad_id,
 			
 		));
@@ -124,9 +124,17 @@ class Ads extends CActiveRecord
         
         public function getFoto($pk, $i)
         {
-            $img = Ads::model()->with('adFoto')->findAllByPk($pk);
-            foreach ($img as $image){
-                return $image->adFoto[$i]->foto_file_name; 
-            }
+             $img= Ads::model()->with('adFoto')->findByPk($pk);
+            if (isset($img->adFoto[$i]))
+		return $img->adFoto[$i]->foto_file_name;
+	return 'no_image.jpg';
+        }
+
+       public function getFotos($pk)
+        {
+            $img= Ads::model()->with('adFoto')->findByPk($pk);
+            if (isset($img->adFoto))
+		return $img->adFoto[0];
+	return 'no_image.jpg';
         }
 }

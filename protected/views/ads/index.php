@@ -21,7 +21,10 @@ $this->menu=array(
             
                 array(
                     'name'=>'дата',
-                    'value'=> 'time("F j, Y", $data->ad_add_time)'
+                    'type'=>'raw',
+                   // 'type'=>'datetime',
+                    'value'=>  'CHtml::link(CHtml::encode(Yii::app()->dateFormatter->
+                        format("d MMMM yyyy", $data->ad_add_time)), $data->url)'
                 
                 ),
                 array(
@@ -48,7 +51,9 @@ $this->menu=array(
                 ),
                 array(
                     'name'=>'двигатель',
-                    'value'=> 'Lookup::item("FUEL", $data->adAvto->avto_fuel_type).", Объем ".Lookup::item("ENGINE", $data->adAvto->avto_v_engine).", Трансмисия ".Lookup::item("TRANSMISSION", $data->adAvto->avto_transmission);',
+                    'value'=> 'Lookup::item("FUEL", $data->adAvto->avto_fuel_type).", 
+                        Объем ".Lookup::item("ENGINE", $data->adAvto->avto_v_engine).", 
+                        Трансмисия ".Lookup::item("TRANSMISSION", $data->adAvto->avto_transmission);',
                     
                     
                 ),

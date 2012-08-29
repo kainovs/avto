@@ -16,7 +16,7 @@
 			'htmlOptions'=>array('class'=>'operations'),
 		));
 		$this->endWidget();
-                
+                /*
                 $this->beginwidget('zii.widgets.CPortlet', array(
                     'title'=>'Autocomplit'
                 ));
@@ -26,9 +26,9 @@
                     'url'=> array('MarkaAvto/AutoComplete'),
                     'minChars'=>2,
                     ));
-                                
+                               
                 $this->endWidget();
-                
+                */ 
                 
 	?>
 	</div><!-- sidebar -->

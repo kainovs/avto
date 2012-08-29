@@ -20,6 +20,17 @@
 		<?php echo $form->textField($model,'ad_user_id'); ?>
 		<?php echo $form->error($model,'ad_user_id'); ?>
 	</div>
+        
+             <div class="row">
+		<?php echo $form->labelEx($model, 'Марка автомобиля'); ?>
+		<?php echo $form->dropDownList($model, 'ad_models_id',CHtml::listData(Brand::model()->findAll(),'id','brand')); ?>
+		
+       
+        <div class="row">
+		<?php echo $form->labelEx($model,'ad_models_id'); ?>
+		<?php echo $form->dropDownList($model,'ad_models_id',  CHtml::listData(Models::model()->findByPk(4),'id','model')); ?>
+		<?php echo $form->error($model,'ad_models_id'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'ad_models_id'); ?>
