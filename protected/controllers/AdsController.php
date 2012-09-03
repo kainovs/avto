@@ -28,12 +28,12 @@ class AdsController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','changeModel'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -173,4 +173,17 @@ class AdsController extends Controller
 			Yii::app()->end();
 		}
 	}
+        
+        public function actionchangeModel()
+        {
+            $selectedBrand = $_POST['Ads']['ad_brand_id'];
+            $data = Ads::getmodels($selectedBrand);
+             foreach($data as $value=>$model)  {
+                        echo CHtml::tag
+                                ('option', array('value'=>$value),CHtml::encode($model),true);
+                    }
+             
+            
+            
+        }
 }

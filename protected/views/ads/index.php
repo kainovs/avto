@@ -20,7 +20,7 @@ $this->menu=array(
 	'columns'=>array(
             
                 array(
-                    'name'=>'дата',
+                    'header'=>'дата',
                     'type'=>'raw',
                    // 'type'=>'datetime',
                     'value'=>  'CHtml::link(CHtml::encode(Yii::app()->dateFormatter->
@@ -41,16 +41,16 @@ $this->menu=array(
                 ),
 		
 		array(
-                    'name'=>'модель',
+                    'header'=>'Модель',
                     'type'=>'raw',
                     'value'=>'$data->adModels->modelBrand->brand." ".$data->adModels->model',
                 ),
                 array(
-                    'name'=>'год',
+                    'header'=>'год',
                     'value'=> '$data->ad_year',
                 ),
                 array(
-                    'name'=>'двигатель',
+                    'header'=>'двигатель',
                     'value'=> 'Lookup::item("FUEL", $data->adAvto->avto_fuel_type).", 
                         Объем ".Lookup::item("ENGINE", $data->adAvto->avto_v_engine).", 
                         Трансмисия ".Lookup::item("TRANSMISSION", $data->adAvto->avto_transmission);',
@@ -58,11 +58,11 @@ $this->menu=array(
                     
                 ),
 		array(
-                    'name'=>'пробег',
+                    'header'=>'пробег',
                     'value'=> '$data->adAvto->avto_mileage." км"',
                 ),
                 array(
-                    'name'=>'цена',
+                    'header'=>'цена',
                     'value'=>'$data->ad_price',
                     
                 )

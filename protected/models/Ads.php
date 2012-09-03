@@ -22,7 +22,9 @@ class Ads extends CActiveRecord
 {
             const STATUS_NO_PUBLISHED = 0 ;
             const STATUS_PUBLISHED = 1 ;
-	/**
+            public $ad_brand_id;
+
+            /**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
 	 * @return Ads the static model class
@@ -52,6 +54,7 @@ class Ads extends CActiveRecord
 			array('ad_user_id, ad_models_id, ad_publish, ad_type, ad_price', 'numerical', 'integerOnly'=>true),
 			array('ad_year', 'length', 'max'=>4),
 			array('ad_add_time', 'safe'),
+                    array('ad_brand_id', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('ad_id, ad_user_id, ad_models_id, ad_publish, ad_add_time, ad_year, ad_type, ad_price', 'safe', 'on'=>'search'),
@@ -81,12 +84,14 @@ class Ads extends CActiveRecord
 		return array(
 			'ad_id' => 'Id',
 			'ad_user_id' => 'Автор',
-			'ad_models_id' => 'Автомобиль',
+			'ad_models_id' => 'Модель автомобиля',
 			'ad_publish' => 'Публикация',
 			'ad_add_time' => 'Дата объявления',
 			'ad_year' => 'Год выпуска',
 			'ad_type' => 'Тип объявления',
 			'ad_price' => 'Цена',
+                        'ad_brand_id'=>' Марка автомобиля'
+                     
 		);
 	}
 
@@ -122,7 +127,7 @@ class Ads extends CActiveRecord
 		));
 	}
         
-        public function getFoto($pk, $i)
+        public static function getFoto($pk, $i)
         {
              $img= Ads::model()->with('adFoto')->findByPk($pk);
             if (isset($img->adFoto[$i]))
@@ -137,4 +142,33 @@ class Ads extends CActiveRecord
 		return $img->adFoto[0];
 	return 'no_image.jpg';
         }
+        
+        public static function getmodels ($id_brand)
+        {
+            $data = Models::model()->findAll('model_brand_id=:par', array (':par'=>$id_brand));
+            $res = array();
+            if(count($data)!= 0){
+               $res[0] = "Выберите модель...";}
+                    foreach ($data as $model){
+                        $res[$model->id]= $model->model;
+                            }
+                         
+                            return $res;
+        }
+        
+        protected function beforeSave()
+{
+    if(parent::beforeSave())
+    {
+        if($this->isNewRecord)
+        {
+            $this->ad_add_time=time();
+            $this->ad_user_id=Yii::app()->user->id;
+        }
+        
+        return true;
+    }
+    else
+        return false;
+}
 }

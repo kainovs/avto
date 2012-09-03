@@ -16,50 +16,32 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'ad_user_id'); ?>
-		<?php echo $form->textField($model,'ad_user_id'); ?>
-		<?php echo $form->error($model,'ad_user_id'); ?>
+		<?php // echo $form->labelEx($model,'ad_user_id'); ?>
+		<?php // echo $form->textField($model,'ad_user_id'); ?>
+		<?php // echo $form->error($model,'ad_user_id'); ?>
 	</div>
         
              <div class="row">
-		<?php echo $form->labelEx($model, 'Марка автомобиля'); ?>
-		<?php echo $form->dropDownList($model, 'ad_models_id',CHtml::listData(Brand::model()->findAll(),'id','brand')); ?>
-		
+		<?php echo $form->labelEx($model, 'ad_brand_id'); ?>
+		<?php echo $form->dropDownList($model, 'ad_brand_id',CHtml::listData(Brand::model()->findAll(),'id','brand'),
+		array( 'empty'=>Yii::t('default', 'Выберите марку...'),
+                    'ajax' => array(
+                        'type'   => 'POST',
+                        'url'    => $this->createUrl('ads/changeModel'),
+                        'update' => '#'.CHtml::activeId($model,'ad_models_id'),                        
+                                        )
+                    ));?>
        
         <div class="row">
 		<?php echo $form->labelEx($model,'ad_models_id'); ?>
-		<?php echo $form->dropDownList($model,'ad_models_id',  CHtml::listData(Models::model()->findByPk(4),'id','model')); ?>
+		<?php echo $form->dropDownList($model,'ad_models_id', Ads::getmodels(1)); ?>
 		<?php echo $form->error($model,'ad_models_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'ad_models_id'); ?>
-		<?php echo $form->textField($model,'ad_models_id'); ?>
-		<?php echo $form->error($model,'ad_models_id'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'ad_publish'); ?>
-		<?php echo $form->textField($model,'ad_publish'); ?>
-		<?php echo $form->error($model,'ad_publish'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'ad_add_time'); ?>
-		<?php echo $form->textField($model,'ad_add_time'); ?>
-		<?php echo $form->error($model,'ad_add_time'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'ad_year'); ?>
 		<?php echo $form->textField($model,'ad_year',array('size'=>4,'maxlength'=>4)); ?>
 		<?php echo $form->error($model,'ad_year'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'ad_type'); ?>
-		<?php echo $form->textField($model,'ad_type'); ?>
-		<?php echo $form->error($model,'ad_type'); ?>
 	</div>
 
 	<div class="row">

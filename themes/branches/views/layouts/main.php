@@ -28,8 +28,8 @@
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
-				array('label'=>'Автобазар', 'url'=>array('/site/index')),
-                                array('label'=>'Модели автомобилей', 'url'=>array('/modelAvto/index')),
+				//array('label'=>'Автобазар', 'url'=>array('/site/index')),
+                                array('label'=>'Объявления', 'url'=>array('/ads/index')),
 				array('label'=>'О сайте', 'url'=>array('/site/page', 'view'=>'about')),
 				array('label'=>'Контакты', 'url'=>array('/site/contact')),
 				array('label'=>'Войти', 'url'=>array('/user/login'), 'visible'=>Yii::app()->user->isGuest),
