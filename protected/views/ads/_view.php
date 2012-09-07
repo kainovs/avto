@@ -39,7 +39,8 @@
 	<br />
         
         <br />
-         Добавлено <?php echo  date('F j, Y',$data->ad_add_time). ' автор ' .$data->user->username ; ?>
+         Добавлено <?php echo  Yii::app()->dateFormatter->
+         format("d MMMM yyyy", $data->ad_add_time). ' автор ' .$data->user->username ; ?>
 	<br />
         
       

@@ -5,7 +5,7 @@
 ?>
 
 <div class="form">
-
+<?php //echo $this->renderPartial('_form',array('model'=>$model, 'model_avto'=>$model_avto));?>
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'ads-form',
 	'enableAjaxValidation'=>false,
@@ -13,7 +13,7 @@
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+	<?php echo $form->errorSummary($model, $model_avto); ?>
 
 	<div class="row">
 		<?php // echo $form->labelEx($model,'ad_user_id'); ?>
@@ -43,11 +43,22 @@
 		<?php echo $form->textField($model,'ad_year',array('size'=>4,'maxlength'=>4)); ?>
 		<?php echo $form->error($model,'ad_year'); ?>
 	</div>
+                  <div class="row">
+		<?php echo $form->labelEx($model_avto,'avto_fuel_type'); ?>
+		<?php echo $form->dropDownList($model_avto,'avto_fuel_type', Lookup::items("FUEL")); ?>
+		<?php echo $form->error($model,'avto_fuel_type'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'ad_price'); ?>
 		<?php echo $form->textField($model,'ad_price'); ?>
 		<?php echo $form->error($model,'ad_price'); ?>
+	</div>
+                 
+        <div class="row">
+		<?php echo $form->labelEx($model_avto,'avto_text'); ?>
+		<?php echo $form->textarea($model_avto,'avto_text'); ?>
+		<?php echo $form->error($model_avto,'avto_text'); ?>
 	</div>
 
 	<div class="row buttons">

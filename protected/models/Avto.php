@@ -43,7 +43,7 @@ class Avto extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('avto_fuel_type, avto_v_engine, avto_transmission, avto_mileage, avto_rul, avto_ad_id', 'required'),
+			array('avto_fuel_type, avto_v_engine, avto_transmission, avto_mileage, avto_rul, avto_text, avto_ad_id', 'required'),
 			array('avto_fuel_type, avto_v_engine, avto_transmission, avto_mileage, avto_rul, avto_ad_id', 'numerical', 'integerOnly'=>true),
 			array('avto_text', 'length', 'max'=>300),
 			// The following rule is used by search().
@@ -70,12 +70,12 @@ class Avto extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'avto_fuel_type' => 'Avto Fuel Type',
+			'avto_fuel_type' => 'Топливо',
 			'avto_v_engine' => 'Avto V Engine',
-			'avto_transmission' => 'Avto Transmission',
-			'avto_mileage' => 'Avto Mileage',
-			'avto_rul' => 'Avto Rul',
-			'avto_text' => 'Avto Text',
+			'avto_transmission' => 'Трансмиссия',
+			'avto_mileage' => 'Пробег',
+			'avto_rul' => 'Руль',
+			'avto_text' => 'Дополнительное описание',
 			'avto_ad_id' => 'Avto Ad',
 		);
 	}

@@ -50,7 +50,7 @@ class Ads extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('ad_user_id, ad_models_id, ad_price', 'required'),
+			array('ad_user_id, ad_models_id, ad_price, ad_add_time', 'required'),
 			array('ad_user_id, ad_models_id, ad_publish, ad_type, ad_price', 'numerical', 'integerOnly'=>true),
 			array('ad_year', 'length', 'max'=>4),
 			array('ad_add_time', 'safe'),
@@ -156,19 +156,20 @@ class Ads extends CActiveRecord
                             return $res;
         }
         
-        protected function beforeSave()
+        protected function beforeValidate()
 {
-    if(parent::beforeSave())
-    {
-        if($this->isNewRecord)
-        {
-            $this->ad_add_time=time();
-            $this->ad_user_id=Yii::app()->user->id;
-        }
-        
-        return true;
-    }
-    else
-        return false;
-}
+                if(parent::beforeValidate())
+                {
+                    if($this->isNewRecord)
+                    {
+                        $this->ad_add_time=  date("Y-m-d H:i:s");
+                        $this->ad_user_id= Yii::app()->user->id;
+                        $this->ad_publish= 1;
+                    }
+
+                    return true;
+                }
+                else
+                    return false;
+            }
 }

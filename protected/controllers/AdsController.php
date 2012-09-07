@@ -63,19 +63,23 @@ class AdsController extends Controller
 	public function actionCreate()
 	{
 		$model=new Ads;
+                $model_avto= new Avto;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Ads']))
+		if(isset($_POST['Ads'])|| isset ($_POST['Avto']))
 		{
-			$model->attributes=$_POST['Ads'];
+			$model->attributes =$_POST['Ads'];
+                        $model_avto->attributes=$_POST['Avto'];
+                        
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ad_id));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+                        'model_avto'=>$model_avto,
 		));
 	}
 
