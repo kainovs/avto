@@ -3,8 +3,8 @@
 /* @var $model Ads */
 
 $this->breadcrumbs=array(
-	'Ads'=>array('index'),
-	'Create',
+	'Объявления'=>array('index'),
+	'Создать объявление',
 );
 
 $this->menu=array(
@@ -13,6 +13,6 @@ $this->menu=array(
 );
 ?>
 
-<h1>Create Ads</h1>
+<h1>Создать объявление</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model, 'model_avto'=>$model_avto)); ?>

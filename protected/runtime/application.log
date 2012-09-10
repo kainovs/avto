@@ -9593,3 +9593,855 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/09/07 10:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:15:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:16:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:17:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:20:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:24:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:27:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:28:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:28:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Системе не удалось найти запрашиваемое действие "Главная".' in Z:\home\Avto.local\yii\framework\web\CController.php:484
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CController.php(271): CController->missingAction('??????????????')
+#1 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(283): CController->run('??????????????')
+#2 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('ads/???????????...')
+#3 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/ads/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F
+HTTP_REFERER=http://avto.local/ads/create
+---
+2012/09/07 10:28:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/07 10:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/07 10:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/07 10:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/07 10:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:38:09 [error] [exception.CException] exception 'CException' with message 'Не определено свойство "Ads.avto_mileage".' in Z:\home\Avto.local\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('avto_mileage')
+#1 Z:\home\Avto.local\yii\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('avto_mileage')
+#2 Z:\home\Avto.local\yii\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Ads), 'avto_mileage')
+#3 Z:\home\Avto.local\yii\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Ads), 'avto_mileage', Array)
+#4 Z:\home\Avto.local\yii\framework\web\widgets\CActiveForm.php(655): CHtml::activeTextField(Object(Ads), 'avto_mileage', Array)
+#5 Z:\home\Avto.local\www\protected\views\ads\_form.php(49): CActiveForm->textField(Object(Ads), 'avto_mileage', Array)
+#6 Z:\home\Avto.local\yii\framework\web\CBaseController.php(127): require('Z:\home\Avto.lo...')
+#7 Z:\home\Avto.local\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\Avto.lo...', Array, true)
+#8 Z:\home\Avto.local\yii\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\Avto.lo...', Array, true)
+#9 Z:\home\Avto.local\www\protected\views\ads\create.php(18): CController->renderPartial('_form', Array)
+#10 Z:\home\Avto.local\yii\framework\web\CBaseController.php(127): require('Z:\home\Avto.lo...')
+#11 Z:\home\Avto.local\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('Z:\home\Avto.lo...', Array, true)
+#12 Z:\home\Avto.local\yii\framework\web\CController.php(870): CBaseController->renderFile('Z:\home\Avto.lo...', Array, true)
+#13 Z:\home\Avto.local\yii\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 Z:\home\Avto.local\www\protected\controllers\AdsController.php(83): CController->render('create', Array)
+#15 Z:\home\Avto.local\yii\framework\web\actions\CInlineAction.php(50): AdsController->actionCreate()
+#16 Z:\home\Avto.local\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 Z:\home\Avto.local\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 Z:\home\Avto.local\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 Z:\home\Avto.local\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 Z:\home\Avto.local\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 Z:\home\Avto.local\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 Z:\home\Avto.local\yii\framework\web\CController.php(292): CFilterChain->run()
+#23 Z:\home\Avto.local\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(283): CController->run('create')
+#25 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('ads/create')
+#26 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/ads/create
+HTTP_REFERER=http://avto.local/
+---
+2012/09/07 10:38:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/07 10:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/08 16:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/08 16:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/08 16:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/08 16:04:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:04:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:04:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:06:43 [error] [php] Object of class Avto could not be converted to string (Z:\home\Avto.local\yii\framework\web\helpers\CHtml.php:1722)
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CBaseController.php(127): require()
+#1 Z:\home\Avto.local\yii\framework\web\CBaseController.php(96): AdsController->renderInternal()
+#2 Z:\home\Avto.local\yii\framework\web\CController.php(870): AdsController->renderFile()
+#3 Z:\home\Avto.local\www\protected\views\ads\create.php(18): AdsController->renderPartial()
+#4 Z:\home\Avto.local\yii\framework\web\CBaseController.php(127): require()
+#5 Z:\home\Avto.local\yii\framework\web\CBaseController.php(96): AdsController->renderInternal()
+#6 Z:\home\Avto.local\yii\framework\web\CController.php(870): AdsController->renderFile()
+#7 Z:\home\Avto.local\yii\framework\web\CController.php(783): AdsController->renderPartial()
+#8 Z:\home\Avto.local\www\protected\controllers\AdsController.php(83): AdsController->render()
+#9 Z:\home\Avto.local\yii\framework\web\actions\CInlineAction.php(50): AdsController->actionCreate()
+#10 Z:\home\Avto.local\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#11 Z:\home\Avto.local\yii\framework\web\filters\CFilterChain.php(134): AdsController->runAction()
+#12 Z:\home\Avto.local\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 Z:\home\Avto.local\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#14 Z:\home\Avto.local\yii\framework\web\filters\CInlineFilter.php(59): AdsController->filterAccessControl()
+#15 Z:\home\Avto.local\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#16 Z:\home\Avto.local\yii\framework\web\CController.php(292): CFilterChain->run()
+#17 Z:\home\Avto.local\yii\framework\web\CController.php(266): AdsController->runActionWithFilters()
+#18 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(283): AdsController->run()
+#19 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#20 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 Z:\home\Avto.local\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/ads/create
+in Z:\home\Avto.local\www\protected\views\ads\_form.php (16)
+in Z:\home\Avto.local\www\protected\views\ads\create.php (18)
+in Z:\home\Avto.local\www\protected\controllers\AdsController.php (83)
+2012/09/08 16:06:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:07:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:07:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 16:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:07:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:07:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:07:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/preveiw_no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/preveiw_no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 16:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 17:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/3small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/3small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/1small_image/02.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/1small_image/02.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/2small_image/01.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/2small_image/01.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:07:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 17:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/3/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/3/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:08:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/2/small_image/01.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/2/small_image/01.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:08:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:08:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 17:09:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 17:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/2/small_image/01.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/2/small_image/01.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:09:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:09:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/3/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/3/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 17:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/08 17:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/2/small_image/01.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/2/small_image/01.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/3/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/3/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/ads/index
+---
+2012/09/08 17:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/09/10 10:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/10/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/10/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/10 10:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/2/small_image/01.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/2/small_image/01.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/10 10:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/8/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/8/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/10 10:56:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/9/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/9/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/10 10:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/3/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/3/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/10 10:56:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "images/AvtoFoto/5/small_image/no_image.jpg".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('images/AvtoFoto...')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/AvtoFoto/5/small_image/no_image.jpg
+HTTP_REFERER=http://avto.local/
+---
+2012/09/10 10:56:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Невозможно обработать запрос "favicon.ico".' in Z:\home\Avto.local\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 Z:\home\Avto.local\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 Z:\home\Avto.local\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 Z:\home\Avto.local\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

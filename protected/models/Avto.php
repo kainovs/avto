@@ -71,7 +71,7 @@ class Avto extends CActiveRecord
 	{
 		return array(
 			'avto_fuel_type' => 'Топливо',
-			'avto_v_engine' => 'Avto V Engine',
+			'avto_v_engine' => 'Объеи куб/см',
 			'avto_transmission' => 'Трансмиссия',
 			'avto_mileage' => 'Пробег',
 			'avto_rul' => 'Руль',

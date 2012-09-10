@@ -7,7 +7,7 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Ads', 'url'=>array('create')),
+	array('label'=>'Подать объявление', 'url'=>array('create')),
 	array('label'=>'Manage Ads', 'url'=>array('admin')),
 );
 ?>
@@ -32,7 +32,7 @@ $this->menu=array(
                   'class'=> 'EImageColumn',
                   'header'=>'фото',
                   'imagePathExpression'=>'Yii::app()->getBaseUrl(true).
-                      "/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 1)' ,
+                      "/images/AvtoFoto/".$data->ad_id."/small_image/".Ads::model()->getFoto($data->ad_id, 1)' ,
                     'emptyText'=>'-',
                 
                     'imageOptions'=>array(

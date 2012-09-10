@@ -21,7 +21,7 @@
 		<?php // echo $form->error($model,'ad_user_id'); ?>
 	</div>
         
-             <div class="row">
+        <div class="row">
 		<?php echo $form->labelEx($model, 'ad_brand_id'); ?>
 		<?php echo $form->dropDownList($model, 'ad_brand_id',CHtml::listData(Brand::model()->findAll(),'id','brand'),
 		array( 'empty'=>Yii::t('default', 'Выберите марку...'),
@@ -34,7 +34,7 @@
        
         <div class="row">
 		<?php echo $form->labelEx($model,'ad_models_id'); ?>
-		<?php echo $form->dropDownList($model,'ad_models_id', Ads::getmodels(1)); ?>
+		<?php echo $form->dropDownList($model,'ad_models_id', Ads::getmodels(50)); ?>
 		<?php echo $form->error($model,'ad_models_id'); ?>
 	</div>
 
@@ -43,13 +43,42 @@
 		<?php echo $form->textField($model,'ad_year',array('size'=>4,'maxlength'=>4)); ?>
 		<?php echo $form->error($model,'ad_year'); ?>
 	</div>
-                  <div class="row">
+            
+        <div class="row">
+		<?php echo $form->labelEx($model_avto,'avto_mileage'); ?>
+		<?php echo $form->textField($model_avto,'avto_mileage',array('size'=>7,'maxlength'=>6)); ?>
+		<?php echo $form->error($model_avto,'avto_mileage'); ?>
+	</div>
+            
+        <div class="row">
 		<?php echo $form->labelEx($model_avto,'avto_fuel_type'); ?>
-		<?php echo $form->dropDownList($model_avto,'avto_fuel_type', Lookup::items("FUEL")); ?>
+		<?php echo $form->dropDownList($model_avto,'avto_fuel_type', Lookup::items("FUEL"),
+                        array( 'empty'=>Yii::t('default', 'Выберите тип топлива...'))); ?>
 		<?php echo $form->error($model,'avto_fuel_type'); ?>
 	</div>
-
-	<div class="row">
+        
+         <div class="row">
+		<?php echo $form->labelEx($model_avto,'avto_transmission'); ?>
+		<?php echo $form->dropDownList($model_avto,'avto_transmission', Lookup::items("TRANSMISSION"),
+                         array( 'empty'=>Yii::t('default', 'Выберите тип трансмиссии...'))); ?>
+		<?php echo $form->error($model,'avto_transmission'); ?>
+	</div>
+        
+        <div class="row">
+		<?php echo $form->labelEx($model_avto,'avto_v_engine'); ?>
+		<?php echo $form->dropDownList($model_avto,'avto_v_engine', Lookup::items("ENGINE"),
+                         array( 'empty'=>Yii::t('default', 'Выберите объем двигателя...'))); ?>
+		<?php echo $form->error($model,'avto_v_engine'); ?>
+	</div>
+            
+        <div class="row">
+		<?php echo $form->labelEx($model_avto,'avto_rul'); ?>
+		<?php echo $form->dropDownList($model_avto,'avto_rul', Lookup::items("RUL"),
+                        array( 'empty'=>Yii::t('default', 'Выберите расположения руля...'))); ?>
+		<?php echo $form->error($model,'avto_rul'); ?>
+	</div>
+        
+        <div class="row">
 		<?php echo $form->labelEx($model,'ad_price'); ?>
 		<?php echo $form->textField($model,'ad_price'); ?>
 		<?php echo $form->error($model,'ad_price'); ?>
@@ -57,7 +86,7 @@
                  
         <div class="row">
 		<?php echo $form->labelEx($model_avto,'avto_text'); ?>
-		<?php echo $form->textarea($model_avto,'avto_text'); ?>
+		<?php echo $form->textarea($model_avto,'avto_text', array('size'=>180)); ?>
 		<?php echo $form->error($model_avto,'avto_text'); ?>
 	</div>
 
