@@ -27,6 +27,7 @@ body
 #content
 {
     padding: 20px;
+    
 }
 
 #sidebar
@@ -36,7 +37,9 @@ body
 
 #footer
 {
-	padding: 10px;
+	float: left;
+        
+        padding: 10px;
 	margin: 10px 20px;
 	font-size: 0.8em;
 	text-align: center;
@@ -45,15 +48,24 @@ body
 
 #logo
 {
-	padding: 10px 20px;
-	font-size: 200%;
-	color: #898989;
+    
+    padding: 50px 20px;
+	font-size: 320%;
+	color: #0099ff;
+       
+    margin-left: 250px;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: bold;
 }
 
 #mainmenu
 {
 	/* background:white url(bg.gif) repeat-x left top; */
 	background-color: #000000;
+      
+    
+    margin-top: 10px;
 }
 
 #mainmenu ul

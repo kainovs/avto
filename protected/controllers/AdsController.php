@@ -72,6 +72,8 @@ class AdsController extends Controller
 		{
 			$model->attributes =$_POST['Ads'];
                         $model_avto->attributes=$_POST['Avto'];
+                        $model->ad_avto_array[]= $model_avto;
+                        
                         
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->ad_id));

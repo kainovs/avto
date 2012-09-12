@@ -23,6 +23,8 @@ class Ads extends CActiveRecord
             const STATUS_NO_PUBLISHED = 0 ;
             const STATUS_PUBLISHED = 1 ;
             public $ad_brand_id;
+            public $ad_avto_array;
+            
 
             /**
 	 * Returns the static model of the specified AR class.
@@ -172,4 +174,13 @@ class Ads extends CActiveRecord
                 else
                     return false;
             }
+            protected function afterSave()
+           {
+             parent::afterSave();
+               foreach ($this->ad_avto_array as $model_avtos){
+                 $model_avtos->avto_ad_id=$this->ad_id;
+                 $model_avtos->save();
+               }
+            }
+               
 }

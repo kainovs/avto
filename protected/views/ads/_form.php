@@ -86,7 +86,7 @@
                  
         <div class="row">
 		<?php echo $form->labelEx($model_avto,'avto_text'); ?>
-		<?php echo $form->textarea($model_avto,'avto_text', array('size'=>180)); ?>
+		<?php echo $form->textArea($model_avto,'avto_text', array('cols'=>50, 'rows'=>10)); ?>
 		<?php echo $form->error($model_avto,'avto_text'); ?>
 	</div>
 
