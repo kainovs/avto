@@ -62,26 +62,82 @@ class AdsController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Ads;
+		$model=new Ads; 
                 $model_avto= new Avto;
+                $model_foto1= new Foto;
+                $model_foto2= new Foto;
+                $model_foto3= new Foto;
+                
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
 		if(isset($_POST['Ads'])|| isset ($_POST['Avto']))
 		{
-			$model->attributes =$_POST['Ads'];
+			$model->attributes =$_POST['Ads']; 
                         $model_avto->attributes=$_POST['Avto'];
                         $model->ad_avto_array[]= $model_avto;
                         
+                       
                         
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->ad_id));
+                        $model->foto1=  CUploadedFile::getInstance($model, 'foto1');//передача картинок из формы
+                            if ($model->foto1){
+                                $model_foto1->foto_file_name='1.jpg'; // пишем имя файла в модель Фото
+                            }
+                        $model->foto2=  CUploadedFile::getInstance($model, 'foto2');//передача картинок из формы
+                            if ($model->foto2){
+                                $model_foto2->foto_file_name='2.jpg'; // пишем имя файла в модель Фото
+                            }
+                        $model->foto3=  CUploadedFile::getInstance($model, 'foto3');//передача картинок из формы
+                           if ($model->foto3){
+                                $model_foto3->foto_file_name='3.jpg'; // пишем имя файла в модель Фото
+                            }
+                        
+                        $model->ad_foto_array[]=$model_foto1;// Передаем модель фото в модель массивом
+                        $model->ad_foto_array[]=$model_foto2;// Передаем модель фото в модель массивом
+                        $model->ad_foto_array[]=$model_foto3;// Передаем модель фото в модель массивом
+                        
+                        
+			if($model->save()){
+                            mkdir($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl."/images/AvtoFoto/".$model->ad_id , 0700);
+                            mkdir($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl."/images/AvtoFoto/".$model->ad_id."/original_image/",0700);
+                            mkdir($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl."/images/AvtoFoto/".$model->ad_id."/small_image/",0700);
+                            mkdir($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl."/images/AvtoFoto/".$model->ad_id."/medium_image/",0700);
+                        
+                            $file0= $_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
+                                "/images/AvtoFoto/no_image.jpg"; //путь сохранения фотографии
+                            $model->resizeFoto($file0, 'no_image'); // ресайзим и сохраняем обработанные фото
+                               
+                                    if($model->foto1){ //проверяем есть ли фаил фото и создаем директории
+                                                
+                                                      
+                                               $file1= $_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
+                                        "/images/AvtoFoto/".$model->ad_id."/original_image/1.jpg";
+                                                $model->foto1->saveAs($file1); // сохраняем фото оригинала
+                                                $model->resizeFoto($file1, 1); // ресайзим и сохраняем обработанные фото
+                                    }
+                       
+                            if($model->foto2){
+                                            $file2= $_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
+                                  "/images/AvtoFoto/".$model->ad_id."/original_image/2.jpg";
+                                        $model->foto2->saveAs($file2);
+                                        $model->resizeFoto($file2, 2);
+                               }
+                       
+                            if($model->foto3){
+                                            $file3= $_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
+                                  "/images/AvtoFoto/".$model->ad_id."/original_image/3.jpg";
+                                        $model->foto3->saveAs($file3);
+                                        $model->resizeFoto($file3, 3);
+                            }
+                        }
+                       $this->redirect(array('view','id'=>$model->ad_id));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
                         'model_avto'=>$model_avto,
+                        
 		));
 	}
 

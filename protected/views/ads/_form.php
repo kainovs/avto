@@ -9,9 +9,10 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'ads-form',
 	'enableAjaxValidation'=>false,
-)); ?>
+        'htmlOptions'=>array('enctype'=>'multipart/form-data',
+))); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Поля с знаком <span class="required">*</span> обязательные  к заполнению.</p>
 
 	<?php echo $form->errorSummary($model, $model_avto); ?>
 
@@ -89,9 +90,35 @@
 		<?php echo $form->textArea($model_avto,'avto_text', array('cols'=>50, 'rows'=>10)); ?>
 		<?php echo $form->error($model_avto,'avto_text'); ?>
 	</div>
+            
+         
+             <div class="row">
+		<?php echo $form->labelEx($model,'foto1'); ?>
+		<?php echo CHtml::activeFileField($model,'foto1'); ?>
+		<?php echo $form->error($model,'foto1'); ?>
+      	</div>
+            <div class="row">
+		<?php echo $form->labelEx($model,'foto2'); ?>
+		<?php echo CHtml::activeFileField($model,'foto2'); ?>
+		<?php echo $form->error($model,'foto2'); ?>
+      	</div>
+            <div class="row">
+		<?php echo $form->labelEx($model,'foto3'); ?>
+		<?php echo CHtml::activeFileField($model,'foto3'); ?>
+		<?php echo $form->error($model,'foto3'); ?>
+      	</div>
+            
+<!--            <div class="row">
+               <?php// echo CHtml::activeFileField($model, 'foto_self'); ?>
+            </div>-->
+            
+            
+
+
+
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Создать' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

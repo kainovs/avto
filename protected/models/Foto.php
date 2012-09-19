@@ -18,6 +18,8 @@ class Foto extends CActiveRecord
 	 * @param string $className active record class name.
 	 * @return Foto the static model class
 	 */
+   
+    
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
@@ -69,6 +71,8 @@ class Foto extends CActiveRecord
 			'f_id' => 'F',
 			'foto_file_name' => 'Foto File Name',
 			'foto_ad_id' => 'Foto Ad',
+                        
+                    
 		);
 	}
 

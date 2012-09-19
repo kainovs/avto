@@ -69,7 +69,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=avtodb',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'atyz',
+			'password' => '',
 			'charset' => 'utf8',
                         'tablePrefix' => 'tbl_',
                         'enableProfiling'=>true,

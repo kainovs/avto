@@ -22,8 +22,15 @@ class Ads extends CActiveRecord
 {
             const STATUS_NO_PUBLISHED = 0 ;
             const STATUS_PUBLISHED = 1 ;
+            
             public $ad_brand_id;
             public $ad_avto_array;
+            public $ad_foto_array; 
+          
+            public $foto1;
+            public $foto2;
+            public $foto3;
+            
             
 
             /**
@@ -57,9 +64,17 @@ class Ads extends CActiveRecord
 			array('ad_year', 'length', 'max'=>4),
 			array('ad_add_time', 'safe'),
                     array('ad_brand_id', 'safe'),
+                    
+                        array('foto1, foto2, foto3','file',
+                            'types'=>'jpg',
+                            'maxSize'=>1024 * 1024 * 5, // 5 MB
+                            'allowEmpty'=>'true',
+                            'tooLarge'=>'Файл весит больше 5 MB. Пожалуйста, загрузите файл меньшего размера.'
+                            ),
+
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('ad_id, ad_user_id, ad_models_id, ad_publish, ad_add_time, ad_year, ad_type, ad_price', 'safe', 'on'=>'search'),
+			array('ad_id, ad_user_id, ad_models_id, ad_publish, ad_add_time, ad_year, ad_type, ad_price, foto1, $foto2, $foto3 ', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -92,7 +107,10 @@ class Ads extends CActiveRecord
 			'ad_year' => 'Год выпуска',
 			'ad_type' => 'Тип объявления',
 			'ad_price' => 'Цена',
-                        'ad_brand_id'=>' Марка автомобиля'
+                        'ad_brand_id'=>' Марка автомобиля',
+                        'foto1'=> 'фото 1',
+                        'foto2'=> 'фото 2',
+                        'foto3'=>'фото 3',
                      
 		);
 	}
@@ -139,11 +157,20 @@ class Ads extends CActiveRecord
 
        public function getFotos($pk)
         {
-            $img= Ads::model()->with('adFoto')->findByPk($pk);
-            if (isset($img->adFoto))
-		return $img->adFoto[0];
-	return 'no_image.jpg';
+          
         }
+        public function resizeFoto($file,$name){
+             $ih=new CImageHandler;
+                            Yii::app()->ih->
+                                    load($file)//загрузка оригинала картинки
+                                    ->thumb('120','120')// превьюха 120 пх
+                                    ->save($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
+                      "/images/AvtoFoto/".$this->ad_id."/small_image/".$name.".jpg")//сохраняемся
+                                    ->reload()// перегружаем картинку в объект ih
+                                    ->thumb('350','350')//большая картинка
+                                    ->save($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
+                      "/images/AvtoFoto/".$this->ad_id."/medium_image/".$name.".jpg");//сохраняемся
+         }
         
         public static function getmodels ($id_brand)
         {
@@ -180,6 +207,12 @@ class Ads extends CActiveRecord
                foreach ($this->ad_avto_array as $model_avtos){
                  $model_avtos->avto_ad_id=$this->ad_id;
                  $model_avtos->save();
+               }
+               foreach($this->ad_foto_array as $fotos){
+                   $fotos->foto_ad_id= $this->ad_id;
+                   $fotos->save();
+                                    
+                   
                }
             }
                

@@ -15,4 +15,4 @@ $this->menu=array(
 
 <h1>Создать объявление</h1>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model, 'model_avto'=>$model_avto)); ?>
+<?php echo $this->renderPartial('_form', array('model'=>$model, 'model_avto'=>$model_avto,'model_foto1'=>$model_foto1,'model_foto2'=>$model_foto2,'model_foto3'=>$model_foto3)); ?>

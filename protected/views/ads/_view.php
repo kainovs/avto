@@ -5,12 +5,12 @@
 
 <div class="view">
 
-    <b> <?php $i=Ads::model()->getFotos($data->ad_id);
+    <b> <?php //$i=Ads::model()->getFotos($data->ad_id);
 //print_r($i);?></b>
-        <b> <?php echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 1));?></b>
-        <b> <?php// echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 2));?></b>
-        <b> <?php //echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 3));?></b>
-        <b> <?php// echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/preveiw_".Ads::model()->getFoto($data->ad_id, 4));?></b>
+        <b> <?php echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 0));?></b>
+        <b> <?php echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 1));?></b>
+        <b> <?php echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 2));?></b>
+        <b> <?php// echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 3));?></b>
         
         <br />
         <hr>

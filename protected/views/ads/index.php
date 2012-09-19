@@ -32,7 +32,7 @@ $this->menu=array(
                   'class'=> 'EImageColumn',
                   'header'=>'фото',
                   'imagePathExpression'=>'Yii::app()->getBaseUrl(true).
-                      "/images/AvtoFoto/".$data->ad_id."/small_image/".Ads::model()->getFoto($data->ad_id, 1)' ,
+                      "/images/AvtoFoto/".$data->ad_id."/small_image/".Ads::model()->getFoto($data->ad_id, 0)' ,
                     'emptyText'=>'-',
                 
                     'imageOptions'=>array(
@@ -47,7 +47,7 @@ $this->menu=array(
                 ),
                 array(
                     'header'=>'год',
-                    'value'=> '$data->ad_year',
+                    'value'=> '$data->ad_year ."год"',
                 ),
                 array(
                     'header'=>'двигатель',
@@ -59,11 +59,11 @@ $this->menu=array(
                 ),
 		array(
                     'header'=>'пробег',
-                    'value'=> '$data->adAvto->avto_mileage." км"',
+                    'value'=> '$data->adAvto->avto_mileage ."км."',
                 ),
                 array(
                     'header'=>'цена',
-                    'value'=>'$data->ad_price',
+                    'value'=>'$data->ad_price ."руб."',
                     
                 )
             
