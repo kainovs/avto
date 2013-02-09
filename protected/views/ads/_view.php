@@ -8,9 +8,9 @@
     <b> <?php //$i=Ads::model()->getFotos($data->ad_id);
 //print_r($i);?></b>
      <?php  CHtml::encode($data->getAttributeLabel('ad_year')); ?> 
-        <b> <?php echo Chtml::link(CHtml::image( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/small_image/".Ads::model()->getFoto($data->ad_id, 0)),( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/original_image/".Ads::model()->getFoto($data->ad_id, 0)));?></b>
-        <b> <?php echo Chtml::link(CHtml::image( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/small_image/".Ads::model()->getFoto($data->ad_id, 1)),( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/original_image/".Ads::model()->getFoto($data->ad_id, 1)));?></b>
-        <b> <?php echo Chtml::link(CHtml::image( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/small_image/".Ads::model()->getFoto($data->ad_id, 2)),( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/original_image/".Ads::model()->getFoto($data->ad_id, 2)));?></b>
+        <b> <?php echo Chtml::link(CHtml::image( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 0)),( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/original_image/".Ads::model()->getFoto($data->ad_id, 0)));?></b>
+        <b> <?php echo Chtml::link(CHtml::image( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 1)),( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/original_image/".Ads::model()->getFoto($data->ad_id, 1)));?></b>
+        <b> <?php echo Chtml::link(CHtml::image( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 2)),( YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/original_image/".Ads::model()->getFoto($data->ad_id, 2)));?></b>
         <b> <?php// echo CHtml::image(YII::app()->getBaseUrl(true)."/images/AvtoFoto/".$data->ad_id."/medium_image/".Ads::model()->getFoto($data->ad_id, 3));?></b>
         
         <br />
@@ -52,12 +52,14 @@
         'selector'=>'a[href$=\'.jpg\'],a[href$=\'.png\'],a[href$=\'.gif\'], a[href$=\'#\']',
         // Можно ли использовать колесико мышки для перемотки изображений в этой группе изображений 
         // (группа перечисляется в списке изображений выше). По умолчанию — нельзя.
-        'enableMouseWheel'=>false,
+        'enableMouseWheel'=>true,
         // Свойства fancybox
         'options'=>array(
             // 'padding'=>10,
             // 'margin'=>20,
              'enableEscapeButton'=>true,
+             'hideOnOverlayClick'=>true,
+            'showNavArrows'=>true,
         ),
     ));/*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('ad_price')); ?>:</b>

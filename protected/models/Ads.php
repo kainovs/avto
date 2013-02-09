@@ -167,7 +167,7 @@ class Ads extends CActiveRecord
                                     ->save($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
                       "/images/AvtoFoto/".$this->ad_id."/small_image/".$name.".jpg")//сохраняемся
                                     ->reload()// перегружаем картинку в объект ih
-                                    ->thumb('350','350')//большая картинка
+                                    ->thumb('210','210')//большая картинка
                                     ->save($_SERVER['DOCUMENT_ROOT'].Yii::app()->urlManager->baseUrl.
                       "/images/AvtoFoto/".$this->ad_id."/medium_image/".$name.".jpg");//сохраняемся
          }
