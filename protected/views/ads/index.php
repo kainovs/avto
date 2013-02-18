@@ -14,9 +14,10 @@ $this->menu=array(
 
 <h1>Объявления о продаже автомобилей г.Темрюка</h1>
 
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'ads-grid',
-	'dataProvider'=> $dataProvider,
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
+    'type'=>'striped ',
+    'dataProvider'=>$dataProvider,
+    'template'=>"{items}",
 	'columns'=>array(
             
                 array(

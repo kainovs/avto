@@ -2,13 +2,14 @@
 
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'СУПЕР ТАЧКИ - автообъявления',
-        'theme'=>'branches',
+        'theme'=>'bootstrap',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -30,6 +31,8 @@ return array(
 			'password'=>'12345',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
+                        'generatorPaths'=>array(
+                                'bootstrap.gii'),
 		),
                 'user' => array( 
                          'tableUsers' => 'tbl_users', 
@@ -58,6 +61,8 @@ return array(
 			),
 		),
                 'ih'=>array('class'=>'CImageHandler'),
+                'bootstrap'=>array(
+                'class'=>'bootstrap.components.Bootstrap',),
 		
             /*
 		'db'=>array(
@@ -69,7 +74,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost;dbname=avtodb',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'atyz',
 			'charset' => 'utf8',
                         'tablePrefix' => 'tbl_',
                         'enableProfiling'=>true,
