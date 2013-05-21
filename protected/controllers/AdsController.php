@@ -190,8 +190,10 @@ class AdsController extends Controller
                 
             ));
 		$dataProvider=new CActiveDataProvider('Ads',array('criteria'=>$criteria));
+                $dataBrand=new CActiveDataProvider(Brand::brandAll());
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
+                        'dataBrand' =>  $dataBrand,
 		));
 	}
 
