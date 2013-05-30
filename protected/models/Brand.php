@@ -86,4 +86,15 @@ class Brand extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        public function allbrand(){
+             $data= self::model()->findAll();
+           $res = array();
+           
+            foreach ($data as $key => $brands ) {
+           $res = $brands;
+            }
+          return $res;
+           
+        }
 }
